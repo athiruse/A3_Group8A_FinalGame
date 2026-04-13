@@ -8,7 +8,13 @@ function drawWin() {
   const panelW = min(width * 0.74, 760);
   const panelH = min(height * 0.58, 380);
   drawGlassPanel(width / 2, height / 2, panelW, panelH, UI_COLORS.success, 30);
-  drawBadge("ALL CASES CLOSED", width / 2, height * 0.34, 170, UI_COLORS.success);
+  drawBadge(
+    "ALL CASES CLOSED",
+    width / 2,
+    height * 0.34,
+    170,
+    UI_COLORS.success,
+  );
 
   push();
   textAlign(CENTER, CENTER);
